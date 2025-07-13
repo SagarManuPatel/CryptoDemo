@@ -22,7 +22,7 @@ class CoinGeckoAPI {
             URLQueryItem(name: "per_page", value: "20"),
             URLQueryItem(name: "page", value: "1"),
             URLQueryItem(name: "sparkline", value: "false"),
-            URLQueryItem(name: "x_cg_demo_api_key", value: "CG-NgqU2wAagJ8FQTFyWny8AXrg") // Optional, but fine
+            URLQueryItem(name: "x_cg_demo_api_key", value: "CG-NgqU2wAagJ8FQTFyWny8AXrg")
         ]
 
         guard let url = components.url else {

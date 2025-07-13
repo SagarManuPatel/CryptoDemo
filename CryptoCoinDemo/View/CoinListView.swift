@@ -14,7 +14,7 @@ struct CoinListView: View {
 
     var body: some View {
         HStack(spacing: 12) {
-            // ✅ Coin Image
+            // Coin Image
             AsyncImage(url: URL(string: coin.image)) { phase in
                 switch phase {
                 case .empty:

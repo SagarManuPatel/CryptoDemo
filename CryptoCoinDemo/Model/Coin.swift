@@ -10,7 +10,7 @@ struct Coin: Identifiable, Codable, Equatable {
     let symbol: String
     let name: String
     let current_price: Double
-    let image: String // ✅ Add this line
+    let image: String
 
     enum CodingKeys: String, CodingKey {
         case id, symbol, name, image
