@@ -24,3 +24,10 @@ A simple and clean iOS app built with **SwiftUI** and **Combine** that lets user
 | Data Binding | Combine                  |
 | API          | CoinGecko REST API       |
 | Persistence  | UserDefaults             |
+
+## 📦 Setup Instructions
+
+1. **Clone this repo:**
+   ```bash
+   git clone https://github.com/SagarManuPatel/CryptoDemo.git
+   cd CryptoDemo
